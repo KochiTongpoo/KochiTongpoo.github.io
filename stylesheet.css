@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+  font-family: sans-serif;
+  margin: 0px 0px 50px 0px;
+
+}
+
+/*URLを白文字・線無しにした*/
+a {
+  color: #696969;
+  text-decoration: none;
+}
+
+a:hover { /*マウスが上に乗っている状態*/
+  color: #ff6347;
+}
+
+.wrapper {
+}
+
+header {
+  background: #d3d3d3;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-size: 50px;
+  color: #696969;
+}
+
+.container {
+  color: #fffafa;
+  margin: 50px 0px 200px 0px;
+}
+
+.image {
+  margin:20px;
+  text-align: center;
+}
+
+.contents {
+  text-align: center;
+  margin: 50px 10px 10px 10px;
+}
+
+.news {
+  display: inline-block;
+  background-color: #87ceeb;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  background-color: #ffdd00;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+
+.interest {
+  display: inline-block;
+  background-color: #fa8072;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  background-color: #696969;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+
+}
+
+/*細かい装飾*/
+ul, ol {
+  padding: 0;
+  position: relative;
+}
+
+ul li, ol li {
+  background: #fffafa;/*背景色*/
+  margin: 10px;/*余白*/
+  line-height: 1;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+}
